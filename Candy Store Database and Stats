@@ -1,0 +1,22 @@
+CHECK OUT MY STORE DATABASE
+IVE CREATED A STORE DATABASE AND CODED A COUPLE STATS BASED ON PRICE
+
+CREATE TABLE candystore (id integer primary key,name TEXT, texture TEXT, taste TEXT, price INTEGER);
+INSERT INTO candystore VALUES (1,"sour patchkid","both","sour",5);
+INSERT INTO candystore VALUES (2,"laffey tafy","chewy","sweet",1);
+INSERT INTO candystore VALUES (3, "nerds","hard","sour",5);
+INSERT INTO candystore VALUES (4, "twizzlers","chewy","sweet",1);
+INSERT INTO CANDYSTORE VALUES (5,"skittles","both","sweet",4);
+INSERT INTO candystore VALUES (6,"warheads","hard","sour",2);
+INSERT INTO candystore VALUES (7,"startbust","chewy","sweet",3);
+INSERT INTO candystore VALUES (8,"dots","chewy","sweet",5);
+INSERT INTO candystore VALUES (9,"fish","chewy","sweet",2);
+INSERT INTO candystore VALUES (10,"ringpop","hard","sweet",1);
+INSERT INTO candystore VALUES (11, "lemonhead","both","sour",4);
+INSERT INTO candystore VALUES (12, "dumbdumb","hard","both",1);
+INSERT INTO candystore VALUES (13,"airheads","chewy","both",2);
+INSERT INTO candystore VALUES (14,"jawbreaker","hard","both",3);
+INSERT INTO candystore VALUES (15,"gushers","chewy","sweet",1);
+SELECT * FROM candystore;
+SELECT max(price) FROM candystore
+;SELECT * FROM candystore WHERE price < 2 ORDER BY price;
