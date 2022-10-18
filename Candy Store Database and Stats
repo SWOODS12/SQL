@@ -18,5 +18,4 @@ INSERT INTO candystore VALUES (13,"airheads","chewy","both",2);
 INSERT INTO candystore VALUES (14,"jawbreaker","hard","both",3);
 INSERT INTO candystore VALUES (15,"gushers","chewy","sweet",1);
 SELECT * FROM candystore;
-SELECT max(price) FROM candystore
 ;SELECT * FROM candystore WHERE price < 2 ORDER BY price;
